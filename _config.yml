@@ -3,7 +3,7 @@ description: My Github Pages
 author: mc.
 logo: /static/img/avatar.png
 github: https://github.com/codeasashu
-about: about me
+about: posts & projects
 
 baseurl: "https://mc-source.github.io"
 url: "https://mc-source.github.io"
