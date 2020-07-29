@@ -4,6 +4,10 @@
     padding: 50px 0 15px 0;
     width: 100%;
 }
+.well-primary {
+    background-color: #263238 !important;
+}
+
 .full{ font-size: 16px; }
 .logo-img {
     width: 56px;
@@ -81,7 +85,7 @@ li.current-menu-item:before {
     position: absolute;
     left: 9px;
     vertical-align: middle;
-    background: #B8CA28;
+#FFFFFF    background: #B8CA28;
 }
 .menu ul li a {
     font-size: 15px;
