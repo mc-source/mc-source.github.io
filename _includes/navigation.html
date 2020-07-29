@@ -1,5 +1,5 @@
 <nav class="main-nav hide-on-mobiles">
-	<ul>
+	<ul class="list-separator nav navbar-nav well well-primary">
 	  {% for item in site.data.navigation %}
 	    <li {% if page.url == item.link %}class="current"{% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
 	  {% endfor %}
