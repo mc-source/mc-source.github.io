@@ -75,7 +75,7 @@ p.info a {
 }
 
 .menu ul li a:hover, .menu ul li a:focus, li.current-menu-item > a{
-    background: #ffffff;
+    background: #007D72;
 }
 li.current-menu-item:before {
     content: "";
@@ -85,7 +85,7 @@ li.current-menu-item:before {
     position: absolute;
     left: 9px;
     vertical-align: middle;
-   background: #B8CA28;
+   background: #ffffff;
 }
 .menu ul li a {
     font-size: 15px;
