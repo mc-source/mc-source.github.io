@@ -78,31 +78,55 @@
   <body class="home overflow-hidden">
     
 
-    <div class="container main outer">
-      <div class="row">
-        <div class="col-md-3 col-xs-12">
-          <div class="unit one-fifth hide-on-mobiles">
-   <aside>
-      <h4>Latest Posts</h4>
-      <ul>
-         <li><a href="/posts.html#1">Web Dev.</a></li>
-         <li><a href="/posts.html#2">Software Dev.</a></li>
-      </ul>
-      <h4>Latest Projects</h4>
-      <ul>
-         <li><a href="/projects.html#1">Web Dev.</a></li>
-         <li><a href="/projects.html#2">Software Dev.</a></li>
-      </ul>
-      <h4>Archive</h4>
-<!--       <ul>
-   <li><a href="/posts.html">2020</a></li>
-   <li><a href="/projects.html">Older..</a></li>
-</ul> -->
-   </aside>
+    <div class="header-panel shadow-z-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-4 col-xs-12">
+            <div class="row-picture">
+              <img id="about" class="logo-img" src="" height="75px" width="75px">
+            </div>
+            <div class="row-details">
+              <h4 class="list-group-item-heading"></h4>
+              <p class="list-group-item-text"></p>
+              <div class="social-icons">
+	
+        <a class="icon" target="_blank" href=""><i class="fa fa-facebook"></i></a>
+    
+        <a class="icon" target="_blank" href=""><i class="fa fa-twitter"></i></a>
+    
+        <a class="icon" target="_blank" href=""><i class="fa fa-linkedin"></i></a>
+    
+        <a class="icon" target="_blank" href=""><i class="fa fa-stack-exchange"></i></a>
+    
 </div>
+
+            </div>
+            <div class="navbar-header pull-right">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-2x fa-bars"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-9 col-sm-8 col-xs-12">
+          <div class="row">
+            <h2 class="blog-title-pro ">Blog</h2>
+            
+            </div>
+            <p class="info">
+              
+              
+            </p>
+          </div>
         </div>
-        <div class="col-md-9 col-xs-12 full">
-          <h3>Latest Posts</h3>
+      </div>
+    </div>
+
+    <div class="container main outer">
+  <div class="row">
+   
+    <div class="col-md-9 col-xs-12 full">
+      <h3>Latest Posts</h3>
 
 <ul>
   
@@ -129,89 +153,49 @@ of large herbaceous flowering plants in the genus Musa.</p>
 </ul>
 
 
-          <div class="row">
-            <div class="col-md-12 col-xs-12 footer">
-              <footer>
-   <div class="grid">
-      <div class="unit one-third center-on-mobiles">
-         &copy;&nbsp;2020 mc. Theme Powered by Jekyll.</p>
-      </div>
-      <!-- <div class="unit two-thirds align-right center-on-mobiles">
-         <p>
-            Proudly hosted by
-            <a href="https://github.com">
-            <img src="/assets/images/footer-logo.png" width="100" height="30" alt="GitHub • Social coding">
-            </a>
-         </p>
-      </div> -->
-      <!-- <div class="unit two-thirds align-right center-on-mobiles">
-         <p>
-            Jekyll is funded thanks to its
-            <a href="https://github.com/jekyll/jekyll#sponsors">
-            sponsors!
-            </a>
-         </p>
-      </div> -->
-   </div>
+      <div class="row">
+        <div class="col-md-12 col-xs-12 footer">
+          <footer>
+  © 2020 MC. <a href="#">Privacy link</a> - Powered by Jekyll.
 </footer>
+<div align="center">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-0000000000000000"
+    data-ad-slot="0000000000"
+    data-ad-format="auto"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 
-<!--       <script>
-   var anchorForId = function (id) {
-     var anchor = document.createElement("a");
-     anchor.className = "header-link";
-     anchor.href      = "#" + id;
-     anchor.innerHTML = "<span class=\"sr-only\">Permalink</span><i class=\"fa fa-link\"></i>";
-     anchor.title = "Permalink";
-     return anchor;
-   };
-   
-   var linkifyAnchors = function (level, containingElement) {
-     var headers = containingElement.getElementsByTagName("h" + level);
-     for (var h = 0; h < headers.length; h++) {
-       var header = headers[h];
-   
-       if (typeof header.id !== "undefined" && header.id !== "") {
-         header.appendChild(anchorForId(header.id));
-       }
-     }
-   };
-   
-   document.onreadystatechange = function () {
-     if (this.readyState === "complete") {
-       var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
-       if (!contentBlock) {
-         return;
-       }
-       for (var level = 1; level <= 6; level++) {
-         linkifyAnchors(level, contentBlock);
-       }
-     }
-   };
-</script>
-Google Analytics (https://www.google.com/analytics)
-<script>
-   !function(j,e,k,y,l,L){j.GoogleAnalyticsObject=y,j[y]||(j[y]=function(){
-   (j[y].q=j[y].q||[]).push(arguments)}),j[y].l=+new Date,l=e.createElement(k),
-   L=e.getElementsByTagName(k)[0],l.src='https://www.google-analytics.com/analytics.js',
-   L.parentNode.insertBefore(l,L)}(window,document,'script','ga');
-   
-   ga('create', 'UA-50755011-1', 'jekyllrb.com');
-   ga('send', 'pageview');
-</script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-<script type="text/javascript"> docsearch({
-   apiKey: '50fe39c839958dfad797000f33e2ec17',
-   indexName: 'jekyllrb',
-   inputSelector: '#docsearch-input',
-   enhancedSearchInput: true,
-   debug: false // Set debug to true if you want to inspect the dropdown
-   });
-</script> -->
-            </div>
-          </div>
-        </div> <!-- end /.col-md-9 -->
-      </div> <!-- end /.row -->
+        </div>
+      </div>
+    </div> <!-- end /.col-md-9 -->
+
+    <div class="col-md-3 col-xs-12">
+          <nav class="menu">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <nav class="main-nav hide-on-mobiles">
+	<ul>
+	  
+	    <li ><a href="/">Home</a></li>
+	  
+	    <li class="current"><a href="/posts.html">Posts</a></li>
+	  
+	    <li ><a href="/projects.html">Projects</a></li>
+	  
+	    <li ><a href="/about.html">About</a></li>
+	  
+	</ul>
+</nav>
     </div>
+    </nav>
+
+    </div>
+  </div> <!-- end /.row -->
+</div>
+
+
 
   </body>
 </html>
