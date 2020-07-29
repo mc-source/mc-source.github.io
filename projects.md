@@ -2,6 +2,8 @@
 layout: default
 title: Projects
 ---
-# Projects page
+### Latest Projects
 
-some projects..
+*   #### [{{ project.title }}]({{ project.url }})
+
+    {{ project.excerpt }}
