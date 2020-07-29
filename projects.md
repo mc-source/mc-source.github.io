@@ -4,6 +4,15 @@ title: Projects
 ---
 ### Latest Projects
 
-*   #### [{{ project.title }}]({{ project.url }})
+<ul>
+  {% for project in site.projects %}
+    <li>
+      <h4><a href="{{ project.url }}">{{ project.title }}</a></h4>
+      {{ project.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
 
-    {{ project.excerpt }}
+<!-- *   #### [{{ project.title }}]({{ project.url }})
+
+    {{ project.excerpt }} -->
