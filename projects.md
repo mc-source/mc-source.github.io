@@ -4,7 +4,7 @@ title: Projects
 ---
 ### Latest Projects
 
-<!--  <div class="projects row">
+<div class="projects row">
    {% include project_tags.html %}
 
    {% for project in site.data.projects %}
@@ -37,5 +37,5 @@ title: Projects
        </div>
        </div>
    {% endfor %}
-</div> -->
+</div>
 
