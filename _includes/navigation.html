@@ -1,0 +1,7 @@
+<nav class="main-nav hide-on-mobiles">
+	<ul>
+	  {% for item in site.data.navigation %}
+	    <li {% if page.url == item.link %}class="current"{% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
+	  {% endfor %}
+	</ul>
+</nav>
