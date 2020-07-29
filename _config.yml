@@ -1,21 +1,21 @@
 title: Mehdi CHOU.
-description: My Personal Blog
-author: John Smith
-logo: /hcz-jekyll-blog/static/img/avatar.png
+description: My Github Pages
+author: mc.
+logo: /static/img/avatar.png
 github: https://github.com/codeasashu
-about: Freelance developer
+about: about me
 
-baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
-url: "https://codeasashu.github.io/hcz-jekyll-blog"
+baseurl: "https://mc-source.github.io"
+url: "https://mc-source.github.io"
 
 allowsearch: true
 
-disqus_shortname: aboutashu
-google_analytics: UA-72862926-1
+# disqus_shortname: aboutashu
+# google_analytics: UA-72862926-1
 
-share:
-  twitter_username: \#
-  fb_appid: 000000000000
+# share:
+#   twitter_username: \#
+#   fb_appid: 000000000000
 
 
 enableTags: true
@@ -25,4 +25,4 @@ paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
+# gems: [jekyll-paginate, jekyll-gist]
